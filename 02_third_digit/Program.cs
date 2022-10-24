@@ -10,7 +10,7 @@ if (Number < 100)
 }
 else if (Number > 100 && Number < 999)
 {
-    Console.WriteLine($"{Number % 10}");
+    Console.WriteLine(Number % 10);
 }
 else
 {
