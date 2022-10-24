@@ -13,10 +13,3 @@ else
 {
     Console.WriteLine("Будний день");
 }
-
-
-
-
-
-
-
