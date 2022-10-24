@@ -3,23 +3,23 @@
 
 
 Console.Write("Введите число: ");
-int Number = int.Parse(Console.ReadLine());
+int Number = int.Parse(Console.ReadLine() ?? "0");
 
-if(Number < 100)
+if (Number < 100)
 {
     Console.WriteLine("Нет третьей цифры");
 }
-else if(Number > 100 && Number < 999)
+else if (Number > 100 && Number < 999)
 {
     Console.WriteLine($"{Number % 10}");
 }
-else 
+else
 {
-    do   
+    do
     {
         Number = Number / 10;
     }
-    while(Number > 999);
-    
+    while (Number > 999);
+
     Console.WriteLine(Number % 10);
 }
