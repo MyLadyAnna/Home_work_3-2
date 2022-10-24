@@ -3,7 +3,7 @@
 
 int GetSecondDigit(int number)
 {
-    return (number /10) % 10;
+    return (number / 10) % 10;
 }
 
 Console.Write("Введите трёхзначное число: ");
